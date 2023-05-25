@@ -45,13 +45,9 @@ buttonCheckEl.addEventListener('click', function () {
     // When player wins
   } else if (guess === secretNumber) {
     displayMessage('🎉 Correct Number!');
-
     setNumber(secretNumber);
-
     setBackgroundColor('#60b347');
-
     setWidth('30rem');
-
     inputReadOnly(true);
 
     if (score > highscore) {
