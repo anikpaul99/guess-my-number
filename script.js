@@ -17,17 +17,11 @@ let bodyEl = document.querySelector('body');
 let highscoreEl = document.querySelector('.highscore');
 
 const displayMessage = message => (messageEl.textContent = message);
-
 const setNumber = number => (numberEl.textContent = number);
-
 const setValue = value => (valueEl.value = value);
-
 const setScore = value => (scoreEl.textContent = value);
-
 const setBackgroundColor = color => (bodyEl.style.backgroundColor = color);
-
 const setWidth = width => (numberEl.style.width = width);
-
 const init = function () {
   score = 20;
   secretNumber = createSecretNumber();
@@ -38,6 +32,7 @@ const init = function () {
   displayMessage('Start guessing...');
   setBackgroundColor('#222');
   setWidth('15rem');
+  valueEl.readOnly = false;
 };
 
 buttonCheckEl.addEventListener('click', function () {
@@ -55,6 +50,8 @@ buttonCheckEl.addEventListener('click', function () {
     setBackgroundColor('#60b347');
 
     setWidth('30rem');
+
+    valueEl.readOnly = true;
 
     if (score > highscore) {
       highscore = score;
