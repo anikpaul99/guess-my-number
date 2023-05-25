@@ -6,7 +6,7 @@ Play the game [here](https://guessmynumber-anik.netlify.app/).
 
 ## Demo
 
-![Alt text](gif/project%20gif.gif)
+![project gif](https://github.com/anikpaul99/guess-my-number/assets/132483203/44281bb3-f59f-4ae5-9537-4bbe723d6d8f)
 
 ## 🛠 Skills
 
