@@ -4,6 +4,6 @@ A number between 1 - 20 will be generated randomly each time the user reloads th
 
 Play the game [here](https://guessmynumber-anik.netlify.app/).
 
-## 🛠 Skills
+## 🛠 Tools I have used
 
 Javascript, HTML5, CSS3
